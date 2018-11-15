@@ -1,21 +1,8 @@
 body {
-	background-image: url("./gravel/gravel.png");
+	background-image: url("../images/gravel.png");
 	margin: 0px;
 	padding: 0px;
 }
-
-/* .jumbotron {
-	background-color: orange;
-	color: white;
-}
-
-.target-number {
-	font-size: 30px;
-	background-color: #F8CF9C;
-	border-style: solid;
-	border-color: #ddd;
-	border-width: 4px;
-} */
 
 .win-lose-counter {
 	background-color: #9CE7F8;
@@ -71,8 +58,9 @@ body {
 /* .crystals{
     /* display:flex; */
     /* justify-content: space-around; */
-    /* align-items: center; */
-/* } */
+    /* align-items: center;
+ } */
+ 
 .crystal{
 	border: 1px solid black;
     height: 110px;
