@@ -54,7 +54,7 @@ $(document).on("click", ".crystal", function() {
 
         n = 1;
         previous = 0;
-        $(".totalScore").text("   ");  // This line can be added to remove your score before entering the next round
+        // $(".totalScore").text("   ");   This line can be added to remove your score before entering the next round
         resetAndStartGame();
     }
     else if (previous === random_result) {
@@ -64,7 +64,7 @@ $(document).on("click", ".crystal", function() {
 
         n = 1;
         previous = 0;
-        $(".totalScore").text("   ");  // This line can be added to remove your score before entering the next round
+        // $(".totalScore").text("   ");  This line can be added to remove your score before entering the next round
         resetAndStartGame();
     }
 
